@@ -1,0 +1,6 @@
+package br.senai.sp.academia;
+import br.senai.sp.jandira.model.Cliente;
+
+public class App {
+	
+}

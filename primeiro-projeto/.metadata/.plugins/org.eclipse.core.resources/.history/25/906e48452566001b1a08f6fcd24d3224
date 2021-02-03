@@ -1,0 +1,14 @@
+package br.senai.sp.academia;
+import br.senai.sp.jandira.model.Cliente;
+
+public class App {
+	
+	public static void main(String args[]) {
+		
+		Cliente clienteEduardo = new Cliente();
+		
+		clienteEduardo.setaltura("1.67");
+		clie
+	}
+	
+}
