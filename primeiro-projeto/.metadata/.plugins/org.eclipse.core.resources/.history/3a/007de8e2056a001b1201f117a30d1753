@@ -1,0 +1,46 @@
+package br.senai.sp.academia;
+import java.time.LocalDate;
+import java.time.Period;
+
+import br.senai.sp.jandira.model.Cliente;
+import br.senai.sp.jandira.model.Sexo;
+
+public class App {
+
+	public static void main(String args[]) {
+		
+
+		Cliente clienteEduardo = new Cliente();
+		
+		clienteEduardo.setNome("Eduardo da Silva Caciano");
+		clienteEduardo.setDataDeNascimento(LocalDate.of(2004, 4, 16));
+//		clienteEduardo.setSexo("masculino");
+		clienteEduardo.setAltura(1.67);
+		clienteEduardo.setPeso(68.00);
+		
+		LocalDate dataAtual = LocalDate.now();
+		Period periodo = Period.between(clienteEduardo.getDataDeNascimento(), dataAtual);
+		
+		
+		
+		System.out.println("Nome: " + clienteEduardo.getNome());
+		System.out.println("Idade: " + periodo.getYears());
+		System.out.println("Altura: " + clienteEduardo.getAltura());
+		System.out.println("Peso: " + clienteEduardo.getPeso());
+		System.out.println("IMC: " + clienteEduardo.getCalcularImc());
+		System.out.println("NCD: ");
+		System.out.println("Sexo:"+ getSexo());
+		System.out.println(testeSexo());
+	}
+
+	private static char[] testeSexo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private static String getSexo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

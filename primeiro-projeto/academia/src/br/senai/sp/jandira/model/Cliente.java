@@ -1,6 +1,7 @@
 package br.senai.sp.jandira.model;
-
 import java.time.LocalDate;
+
+import javax.swing.plaf.basic.BasicBorders.RadioButtonBorder;
 
 
 public class Cliente {
@@ -33,11 +34,18 @@ public class Cliente {
 	
 	
 	public void setSexo(char sexo) {
-		this.sexo = sexo;
+		if (this.sexo == 'M') {
+			System.out.println("Masculino");
+		}
+		else {
+			System.out.println("Feminino");
+		}
 	}
-	public char getSexo() {
-		return this.sexo;
+	
+	public char getSexo(){
+		return this.sex;
 	}
+	
 	
 	
 	
@@ -66,14 +74,13 @@ public class Cliente {
 		return this.nivelDeAtividade;
 	}
 	
+	
+	
+	
 	public double getCalcularImc() {
 		return this.peso / Math.pow(this.altura, 2);
 	}
-	public void setDataDeNascimento(int i) {
-		// TODO Auto-generated method stub
-		
-	}
-	
+
 	
 	
 	
