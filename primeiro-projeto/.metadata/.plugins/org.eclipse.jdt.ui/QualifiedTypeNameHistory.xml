@@ -3,8 +3,8 @@
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
-<fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="javax.management.loading.PrivateMLet"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicBorders.RadioButtonBorder"/>
+<fullyQualifiedTypeName name="java.time.Period"/>
 </qualifiedTypeNameHistroy>
