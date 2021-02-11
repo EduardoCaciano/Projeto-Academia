@@ -7,4 +7,5 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicBorders.RadioButtonBorder"/>
 <fullyQualifiedTypeName name="java.time.Period"/>
+<fullyQualifiedTypeName name="br.senai.sp.jandira.model.Cliente"/>
 </qualifiedTypeNameHistroy>

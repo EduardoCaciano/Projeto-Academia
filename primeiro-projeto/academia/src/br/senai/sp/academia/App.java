@@ -16,11 +16,9 @@ public class App {
 		clienteEduardo.setAltura(1.67);
 		clienteEduardo.setPeso(68.00);
 		
-		LocalDate dataAtual = LocalDate.now();
-		Period periodo = Period.between(clienteEduardo.getDataDeNascimento(), dataAtual);
 		
 		System.out.println("Nome: " + clienteEduardo.getNome());
-		System.out.println("Idade: " + periodo.getYears());
+		//System.out.println("Idade: " + periodo.getYears());
 		System.out.println("Altura: " + clienteEduardo.getAltura());
 		System.out.println("Peso: " + clienteEduardo.getPeso());
 		System.out.println("Sexo: " + clienteEduardo.getSexo());
